@@ -6,6 +6,7 @@ Alpine-based image with following packages included:
 * busybox-extras
 * coreutils
 * curl
+* mysql-client
 * openssl
 * postgresql-client
 * procps
