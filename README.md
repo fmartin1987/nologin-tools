@@ -1,2 +1,17 @@
 # nologin-tools
-Dockerfile for Nologin Alpine image with several useful tools
+
+Alpine-based image with following packages included:
+
+* bash
+* busybox-extras
+* coreutils
+* curl
+* openssl
+* postgresql-client
+* procps
+* rsync
+* strace
+* tar
+* wget
+
+Besides, 'nologin' user has been created with uid 802.
