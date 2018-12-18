@@ -8,7 +8,7 @@ ENV \
 
 # Install packages.
 RUN \
-  apk --update add bash busybox-extras coreutils curl procps rsync tar wget strace openssl postgresql-client mariadb-client && \
+  apk --update add bash busybox-extras coreutils curl procps rsync tar wget strace openssl postgresql-client mariadb-client acl && \
   rm -rf /var/cache/apk/*
 
 # Create user.

@@ -2,6 +2,7 @@
 
 Alpine-based image with following packages included:
 
+* acl
 * bash
 * busybox-extras
 * coreutils
